@@ -63,7 +63,7 @@ public class Fish extends Agent{
 				}
 		
 				
-			}else if(this.direction == 'l') {// peixe fugindo rodando para a esquerda, caso o sentido seja 'e'
+			}else if(this.direction == 'l') {
 				// checks if running left is better than running down
 				if(leftDist>downDist && !game.map[currentMovement.get(2)[0]][currentMovement.get(2)[1]].marked){
 					game.map[currentMovement.get(2)[0]][currentMovement.get(2)[1]].marked = true;
